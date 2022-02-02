@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 800px;
+width: 100%;
+background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),
+ url(lib1.jpg);
+ background-position: center;
+ background-size: cover;
+ position: relative;
+ 
+}
+.text-box{
+    width: 90%;
+    color:  rgb(176, 55, 187);
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   text-align: center;
+  
+    
+}
+
+.nav-link{
+    width: 90%;
+    color:rgb(255, 0, 255) ;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   text-align: center;
+  
+}
+
+.img{
+    height: 100%;
+    width: 300%;
+    position:absolute;
+    top:790%;
+    color: chartreuse;
+    text-align: left;
+    
+}
+.library{
+    width: 100%;
+    position:absolute;
+    top:170%;
+    color: rgb(100, 235, 21);
+    text-align: center;
+    
+
+}
+
+    
+.few{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top:790%;
+    left: 30%;
+    text-align: left;
+   
+    color: hsla(47, 29%, 81%, 0.986);
+    
+    
+}
+
+.central{
+    height: 100%;
+  width: 100%;
+    text-align: start;
+    position: absolute;
+    top: 650%;
+    color: rgb(221, 177, 32);
+    background-color:rgb(46, 18, 8);
+   
+   
+}
+
+
+a:hover{
+    color: rgb(201, 16, 16);
+}
+a:text{
+    color: #000;
+}
+.FQ{
+    position: absolute;
+    top:659px ;
+    text-align: center;
+    color: brown;
+    
+}
+.lib_head{
+    position: absolute;
+    top: 400px;
+    text-align: center;
+    left: 70%;
+}
+.nav-link a{
+    color: brown;
+}
+ .nav-link a.active{
+    text-decoration: underline;
+    color:white;
+}
+.nav-link a:hover{
+    color: white;
+}
+.nav-link a{
+    padding: 20px;
+}
+.nav-link {
+    background-color: rgb(9, 10, 10);
+
+}
+
+.nav-link a{
+
+}
